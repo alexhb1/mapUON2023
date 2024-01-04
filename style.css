@@ -154,17 +154,18 @@ float:left;
         padding-left: 1cm;
     }
 
-    #SpaceTab {
-    background: #fdc72e;
-    }
 
     #space {
-    background: #fdc72e;
     text-align: center;
     padding-top: 1cm;
     image-rendering: smooth;
-
     }
+
+    #spaceTwo {
+        text-align: center;
+        padding-top: 1cm;
+        image-rendering: smooth;
+        }
 
 
     #spaceLabels {
@@ -172,8 +173,14 @@ float:left;
     color: #f5f5f5;
     text-align: center;
     padding-top: 1cm;
-
     }
+
+    #spaceTwoLabels {
+        background: #4D2DB7;
+        color: #f5f5f5;
+        text-align: center;
+        padding-top: 1cm;
+        }
     ul {
     margin: 1em 0;
     padding: 0 0 0 10px;

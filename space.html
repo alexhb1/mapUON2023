@@ -77,6 +77,11 @@
       color: #000000;
     }
 
+    #buttonSpaceTwo.active {
+      background-color: #fdc72e;
+      color: #000000;
+    }
+
     @media screen and (max-width: 600px) {
       .topnav a:not(:first-child) {display: none;}
       .topnav a.icon {
@@ -110,7 +115,7 @@
         padding:0;
       }
       .topnav a {
-        float:left;
+        display:none;;
       }
       #regionheading {
         display:none;
@@ -123,6 +128,7 @@
     <div class="topnav" id="myTopnav">
       <a id="buttonElysium" href="index.html">Elysium</a>
       <a id="buttonSpace" href="#" class="active">Space</a>
+      <a id="buttonSpaceTwo" href="spacetwo.html">Space 2</a>
       <a href="https://docs.google.com/forms/d/e/1FAIpQLSdSnweIpUVPqgtKoRkHeJlYZ1oL1TrbUYhOkxAaGK2T62sqng/viewform?usp=sf_link" target="_blank">Map Request</a>
       <a id="regionheading" href="https://nationstates.net/region=the_universal_order_of_nations">THE UNIVERSAL ORDER OF NATIONS</a>
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
