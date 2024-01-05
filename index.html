@@ -15,7 +15,7 @@
 
 </script>
 
-    <link rel="prefetch" as="image" href="SpaceMap/Region_Map.png">
+    <link rel="prefetch" as="image" href="SpaceMap/Space_Map_Blank.png">
     <link href="https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Rubik:500,700" rel="stylesheet">
     <link rel="stylesheet" href="mapColor.css">
@@ -33,7 +33,7 @@
     body {
         margin: 0;
         padding: 0;
-        height:100%
+        height:100%;
         font-family: 'Karla', sans-serif;
         background-image: linear-gradient(to bottom right, #FFD93D,#FF8400);
         background-repeat: no-repeat;
@@ -43,7 +43,7 @@
     .topnav {
       overflow: hidden;
       background-color: #f5f5f5;
-      padding:30px;
+      padding:20px;
     }
     
     .topnav a {
@@ -154,30 +154,29 @@
 
 
     <div id="SpaceTab">
+      
         <div id="space">
+          <div id="spaceSwitchButtonContainer">
+            <div id="spaceSwitchButtonDiv">
+              <a id="NationButton" style="font-size: 25px;margin:1%" onclick="toggleBtnClickNation()" class="spaceSwitchButton">Nations</a><a id="RegionButton" style="font-size: 25px;margin:1%" onclick="toggleBtnClickRegion()" class="spaceSwitchButton">Blank</a>
+            </div>
+          </div>
           <img id="spaceMap">
         </div>
     <br>
-    <div id="spaceSwitchButtonContainer">
-        <div id="spaceSwitchButtonDiv">
-          <a id="NationButton" style="font-size: 25px; font-weight: 800;" onclick="toggleBtnClickNation()" class="spaceSwitchButton">Borders</a><a id="RegionButton" style="font-size: 25px; font-weight: 800;" onclick="toggleBtnClickRegion()" class="spaceSwitchButton">Regions</a><a id="DetailButton" style="font-size: 25px; font-weight: 800;" onclick="toggleBtnClickDetail()" class="spaceSwitchButton">Detail</a>
-        </div>
-      </div>
+    
     
         <script>
-          document.getElementById("spaceMap").src = "SpaceMap/Space_Map.png";
+          document.getElementById("spaceMap").src = "SpaceMap/Space_Map_Text.png";
     
           function toggleBtnClickNation() {
-            document.getElementById("spaceMap").src = "SpaceMap/Space_Map.png";
+            document.getElementById("spaceMap").src = "SpaceMap/Space_Map_Text.png";
           }
     
           function toggleBtnClickRegion() {
-            document.getElementById("spaceMap").src = "SpaceMap/Region_Map.png";
+            document.getElementById("spaceMap").src = "SpaceMap/Space_Map_Blank.png";
           }
     
-          function toggleBtnClickDetail() {
-            document.getElementById("spaceMap").src = "SpaceMap/Space_Map_Text.png";
-          }
           toggleBtnClickNation()
         </script>
 
