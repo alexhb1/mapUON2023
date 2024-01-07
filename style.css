@@ -123,20 +123,16 @@ width: 100%;
 }
 
 .spaceDate {
-    background: #282828;
+    bottom: 0;
+    background-color:#333333;
     color:#ffffff;
-    font-weight: 900;
     text-align: left;
-    padding-top: 1em;
+    padding: 20px 20px;
+    padding-bottom:10px;
     vertical-align: middle;
     display: inline-block;
-    width:100%;
-
+    width:100%; 
     }
-
-.footer {
-    padding-left: 1cm;
-}
 
 
 #space {
@@ -149,7 +145,6 @@ image-rendering: smooth;
     text-align:center;
     margin:auto;
     padding-top: 1cm;
-    padding-bottom:10px
     image-rendering: smooth;
     width:60%;
     }
@@ -173,7 +168,7 @@ image-rendering: smooth;
 .mapTitlesSecondary {
     padding: 15px 16px;
     padding-left: 0px;
-    font-size: 22px;
+    font-size: 18px;
     outline: none;
     font-family:Rubik;
     text-decoration: none;
